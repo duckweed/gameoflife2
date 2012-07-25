@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a78dd894-0301-4f6f-85d3-ffbc936db660" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameoflife2.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/dojo/Cell_Test.java" afterPath="$PROJECT_DIR$/test/org/dojo/Cell_Test.java" />
+    <list default="true" id="a78dd894-0301-4f6f-85d3-ffbc936db660" name="Default" comment="fixed">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/dojo/GameOfLife.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/org/dojo/GameOfLifeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameoflife2.iws" afterPath="$PROJECT_DIR$/gameoflife2.iws" />
     </list>
     <ignored path="gameoflife2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,16 +66,23 @@
     <favorites_list name="Current task" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49712408">
+    <splitter split-orientation="horizontal" split-proportion="0.49712414">
       <split-first>
         <leaf>
-          <file leaf-file-name="Cell_Test.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Cell_Test.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/org/dojo/Cell_Test.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="109" column="51" selection-start="2821" selection-end="2821" vertical-scroll-proportion="0.45080093">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state line="109" column="51" selection-start="2821" selection-end="2821" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GameOfLifeTest.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/org/dojo/GameOfLifeTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="30" column="47" selection-start="752" selection-end="752" vertical-scroll-proportion="0.5961039">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -83,10 +91,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Cell.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Cell.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/org/dojo/Cell.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="20" selection-start="109" selection-end="109" vertical-scroll-proportion="0.16831683">
+                <state line="7" column="22" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GameOfLife.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/org/dojo/GameOfLife.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="15" column="36" selection-start="330" selection-end="330" vertical-scroll-proportion="0.336856">
                   <folding />
                 </state>
               </provider>
@@ -111,15 +128,17 @@
         <option value="$PROJECT_DIR$/src/CellState.java" />
         <option value="$PROJECT_DIR$/src/Cell.java" />
         <option value="$PROJECT_DIR$/test/Cell_Test.java" />
-        <option value="$PROJECT_DIR$/src/org/dojo/Cell.java" />
         <option value="$PROJECT_DIR$/test/org/dojo/Cell_Test.java" />
+        <option value="$PROJECT_DIR$/src/org/dojo/Cell.java" />
+        <option value="$PROJECT_DIR$/test/org/dojo/GameOfLifeTest.java" />
+        <option value="$PROJECT_DIR$/src/org/dojo/GameOfLife.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1600" />
-    <option name="height" value="874" />
+    <option name="width" value="1759" />
+    <option name="height" value="1249" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -219,9 +238,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -236,35 +255,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.dojo" />
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.dojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Cell_Test">
-    <configuration default="false" name="Cell_Test.givenaCellourNeighbourCellCountIsEight" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="gameoflife2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.dojo" />
-      <option name="MAIN_CLASS_NAME" value="org.dojo.Cell_Test" />
-      <option name="METHOD_NAME" value="givenaCellourNeighbourCellCountIsEight" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in gameoflife2">
     <configuration default="false" name="Cell_Test" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="gameoflife2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -317,6 +315,50 @@
       <option name="MAIN_CLASS_NAME" value="org.dojo.Cell_Test" />
       <option name="METHOD_NAME" value="givenaCellOurNeighbourCellCountIsEight" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GameOfLifeTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="gameoflife2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.dojo" />
+      <option name="MAIN_CLASS_NAME" value="org.dojo.GameOfLifeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in gameoflife2" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="gameoflife2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -392,18 +434,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Cell_Test.givenaCellourNeighbourCellCountIsEight" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Cell_Test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Cell_Test.test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Cell_Test.givenaCellOurNeighbourCellCountIsEight" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Cell_Test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Cell_Test.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Cell_Test.givenaCellOurNeighbourCellCountIsEight" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GameOfLifeTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in gameoflife2" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Cell_Test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Cell_Test.givenaCellOurNeighbourCellCountIsEight" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Cell_Test.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Cell_Test.givenaCellourNeighbourCellCountIsEight" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in gameoflife2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GameOfLifeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Cell_Test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Cell_Test.givenaCellOurNeighbourCellCountIsEight" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Cell_Test.test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -430,11 +474,15 @@
       <created>1343197249213</created>
       <updated>1343197249213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed">
+      <created>1343198230043</created>
+      <updated>1343198230043</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1600" height="874" extended-state="0" />
+    <frame x="0" y="22" width="1759" height="1249" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -452,8 +500,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36082473" sideWeight="0.3936826" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21685971" sideWeight="0.7065073" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2934927" sideWeight="0.94432265" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19673088" sideWeight="0.70656025" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29343972" sideWeight="0.94432265" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Tapestry" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299611" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -524,10 +572,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/org/dojo/Cell_Test.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="51" selection-start="2821" selection-end="2821" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/dojo/Cell_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="15" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -555,17 +608,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/dojo/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="109" selection-end="109" vertical-scroll-proportion="0.16831683">
+        <state line="7" column="22" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dojo/GameOfLife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="36" selection-start="330" selection-end="330" vertical-scroll-proportion="0.336856">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/org/dojo/Cell_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="51" selection-start="2821" selection-end="2821" vertical-scroll-proportion="0.45080093">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="109" column="51" selection-start="2821" selection-end="2821" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/dojo/GameOfLifeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="47" selection-start="752" selection-end="752" vertical-scroll-proportion="0.5961039">
+          <folding />
         </state>
       </provider>
     </entry>
