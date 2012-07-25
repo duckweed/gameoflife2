@@ -12,7 +12,7 @@ public class Cell {
 
     public int neighboursAlive;
 
-    public CellState isAlive= CellState.DEAD;
+    public CellState state = CellState.DEAD;
 
 
     public int neighboursCount() {
@@ -22,7 +22,7 @@ public class Cell {
 
     public CellState nextState() {
 
-        if (this.isAlive==CellState.ALIVE) {
+        if (this.state ==CellState.ALIVE) {
             if (neighboursAlive==2 || neighboursAlive == 3)
             {
                 return CellState.ALIVE;
